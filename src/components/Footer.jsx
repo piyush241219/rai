@@ -49,15 +49,16 @@ export default function Footer() {
               indore , MP , 452005
             </p>
            <div className="flex flex-col md:flex-row text-xl gap-5">
-           <p className=" text-black-400 flex gap-2 items-center"><MdEmail/> contact@reeha.com</p>
-           <p className=" text-black-400 flex gap-2 items-center"><FaPhoneAlt/> +91 98765 43210</p>
+           <p className=" text-black-400 flex gap-2 items-center"><MdEmail/> reehaai.ai@gmail.com</p>
+           <p className=" text-black-400 flex gap-2 items-center"><FaPhoneAlt/>  +916374648490</p>
            </div>
+          
           </div>
 
           {/* Copyright Section */}
           <div className="mt-6 md:mt-0 text-center md:text-right text-xl">
             <p className=" text-black-500">
-              &copy; {new Date().getFullYear()} Reeha. All rights reserved.
+              &copy; {new Date().getFullYear()} ReehaAi. All rights reserved.
             </p>
           </div>
         </div>

@@ -122,7 +122,7 @@ export default function TermsAndConditions() {
           </p>
           <ul className="list-none mt-4 space-y-2 text-gray-600">
             <li>
-              <strong>Email:</strong> <a href="mailto:support@reehaai.com" className="text-blue-500 underline">support@reehaai.com</a>
+              <strong>Email:</strong> <a href="mailto:reehaai.ai@gmail.com" className="text-blue-500 underline">reehaai.ai@gmail.com</a>
             </li>
             <li>
               <strong>Address:</strong> 21 - Ramchandra Nagar Extension , indore , MP , 452005
