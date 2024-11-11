@@ -38,7 +38,7 @@ export default function Report() {
 
   return (
     <div className="flex items-center justify-center min-h-screen  pt-20">
-      <div className="bg-white shadow-md rounded-lg p-8 w-full max-w-2xl text-center">
+      <div className=" shadow-xl rounded-lg p-8 w-full max-w-2xl text-center">
         <h2 className="text-2xl font-bold text-red-600 mb-5">Report an Issue</h2>
         <form onSubmit={reportIssue} className="space-y-4">
           <div>
@@ -49,7 +49,7 @@ export default function Report() {
               value={formData.name}
               onChange={handleChange}
               required
-              className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:border-red-500"
+              className="w-full p-3 border border-gray-300 bg-[#00000020] rounded-lg focus:outline-none focus:border-red-500"
             />
           </div>
           <div>
@@ -60,7 +60,7 @@ export default function Report() {
               value={formData.email}
               onChange={handleChange}
               required
-              className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:border-red-500"
+              className="w-full p-3 border border-gray-300 bg-[#00000020] rounded-lg focus:outline-none focus:border-red-500"
             />
           </div>
           <div>
@@ -70,7 +70,7 @@ export default function Report() {
               value={formData.issue}
               onChange={handleChange}
               required
-              className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:border-red-500"
+              className="w-full p-3 border border-gray-300 bg-[#00000020] rounded-lg focus:outline-none focus:border-red-500"
               rows="3"
             />
           </div>
@@ -81,7 +81,7 @@ export default function Report() {
               value={formData.feature}
               onChange={handleChange}
               required
-              className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:border-red-500"
+              className="w-full p-3 border border-gray-300 bg-[#00000020] rounded-lg focus:outline-none focus:border-red-500"
               rows="3"
             />
           </div>

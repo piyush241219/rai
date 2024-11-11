@@ -6,9 +6,16 @@ html,
 body {
     height: 100%;
     box-sizing: border-box;
-    background: linear-gradient(to right, #94d5fa, #d9d2fb);
+    background:
+        /* url("./assets/reeha_bg.png"), */
+        linear-gradient(to right, #94d5fa, #d9d2fb);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
-.navbar { 
+
+.navbar {
     background: linear-gradient(to right, #94d5fa, #d9d2fb);
 }
 

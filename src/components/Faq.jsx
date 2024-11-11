@@ -340,7 +340,7 @@ export default function Faq() {
             <h2 id={`accordion-collapse-heading-${index + 1}`}>
               <button
                 type="button"
-                className="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-b-0 border-gray-200 rounded-t-md focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-[#00000080] hover:text-white dark:hover:bg-gray-800 gap-3"
+                className="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-b-0 border-gray-200 rounded-t-md focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-[#00000020] hover:text-white dark:hover:bg-gray-800 gap-3"
                 onClick={() => handleToggle(index)}
                 aria-expanded={openIndex === index}
                 aria-controls={`accordion-collapse-body-${index + 1}`}
